@@ -1,0 +1,149 @@
+@charset "utf-8";
+.noborder, img {
+    border: 0
+}
+body, dd, dl, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, ol, p, select, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+body{
+    background: url("../imgs/loginBack.jpg"),no-repeat;
+    background-size: cover;
+    font-size: 12px;
+}
+.logoin{
+    width:300px;
+    /*height:320px;*/
+    background: rgba(255,255,255,.4);
+    margin:0px auto;
+    text-align: center;
+    padding: 30px 0 0 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+.logoin h1{
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.paswbox,.userbox{
+    width: 230px;
+    height: 36px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    /*position: relative;*/
+}
+.user,.password{
+    width:230px;
+    height:36px;
+    padding-left: 10px;
+    font-size: 12px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    box-sizing: border-box;
+}
+.logoin .next{
+    display: block;
+    line-height: 36px;
+    height: 36px;
+    width: 230px;
+    margin: 0px auto 20px ;
+    background: #4063a5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.logoin .next:active{
+    background: #4874c8;
+}
+.welcome{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 144px auto 18px auto;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(255,255,255,.1);
+}
+.welcome a{
+    color: #2e4372;
+}
+#box1{
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #2e4372;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.welcome:hover a{
+    color:#fff;
+}
+.welcome:hover span{
+    background-position: 0 0;
+}
+.zuce{
+    width: 300px;
+    line-height: 36px;
+    font-size: 14px;
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    border-top: 2px solid #ececec;
+    font-weight: bold;
+    overflow: hidden;
+}
+.forget:hover,.zuce a:hover{
+    color: #2e4372;
+}
+.bqxxbox{
+    height: 56px;
+    width: 100%;
+    border-top: 2px solid rgba(255,255,255,.3);
+    position: absolute;
+    bottom: 0px;
+}
+.bqxx{
+    width: 900px;
+    margin-left:5%;
+}
+.span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../imgs/icons.png") no-repeat;
+    background-position:0px 0px;
+    position: absolute;
+    right: 12px;
+    top:12px;
+    cursor: pointer;
+}
+.span1{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../imgs/icons.png") no-repeat;
+    background-position:0px -15px;
+    position: absolute;
+    right: 12px;
+    top:12px;
+    cursor: pointer;
+}
+.spanWarn{
+    display: block;
+    width: 230px;
+    height: 30px;
+    margin: 70px auto -5px;
+    /*position: absolute;*/
+    overflow: hidden;
+
+}

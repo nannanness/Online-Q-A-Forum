@@ -1,0 +1,72 @@
+.contentCssSet{
+    width: 740px;
+    font-size: 14px;
+}
+
+.contentDetail{
+    position: relative;
+    width: 740px;
+    max-height: 69px;
+    overflow: hidden;
+    color: #1a1a1a;
+    line-height: 22px;
+    /*text-overflow: ellipsis;*/
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.contentDetail-showall{
+    position: relative;
+    width: 740px;
+    min-height: 69px;
+    color: #1a1a1a;
+    line-height: 22px;
+}
+.contentDetail::after{
+    /*content: "...";*/
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+    padding-left: 40px;
+}
+.contentDetail-showall img{
+    max-width: 100%;
+}
+.showAll{
+    display: block;
+    height: 20px;
+    margin-top: 15px;
+}
+.showAll span{
+    float: right;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #00b7ee;
+    transition: all 300ms ease-in;
+}
+.showAll span:hover{
+    color: #0a628f;
+}
+.hideAll{
+    display: none;
+    height: 20px;
+    margin-top: 15px;
+}
+.hideAll span{
+    float: right;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: #00b7ee;
+    transition: all 300ms ease-in;
+}
+.hideAll span:hover{
+    color: #0a628f;
+}
+
+.more{
+    color: #999;
+}

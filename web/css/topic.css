@@ -1,0 +1,388 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.page-type{
+    width: 960px;
+    margin: 0 auto;
+    padding: 25px 0 50px;
+
+}
+
+.blue {
+    color: #259;
+    display: inline-block;
+    /* float: left;
+    overflow: hidden; */
+    /* text-decoration: underline; */
+}
+.ash{
+    display: inline-block;
+}
+.underline{
+    float: left;
+}
+.underline:hover{
+    /* text-decoration: underline; */
+}
+
+.avatar-img{
+    width: 38px;
+    height: 38px;
+    margin: 3px 0 0 0;
+    border-radius: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-size: 14px;
+    outline: 0;
+}
+
+.main{
+    width: 632px;
+    float: left;
+}
+
+.side-bar{
+    width: 270px;
+    float: right;
+}
+
+.main-title{
+    padding-bottom: 10px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-title-more{
+    float: right;
+    font-size: 12px;
+    color: #999;
+    font-weight: 400;
+}
+
+.main-title-context-big{
+    height: 183px;
+    padding: 10px 0;
+}
+
+
+.avatar-div{
+    float: left;
+}
+
+.feed-main{
+    width: 584px;
+    height: 140px;
+    float: right;
+}
+
+.author-info{
+    width: 584px;
+    height: 22px;
+}
+
+.page{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    color: #222;
+    font-weight: 400
+}
+
+.author-link-line{
+    font-weight: 700
+}
+
+.bio{
+    color: #999;
+}
+
+.post-content{
+    width: 584px;
+    height: 118px;
+}
+
+.origin-image{
+    float: left;
+    width: 200px;
+    height: 200px;
+    /*margin: 1px 1px 5px 0;*/
+    overflow: hidden;
+}
+
+.post-content-main{
+    float: right;
+    width: 380px;
+    margin: 1px 0 5px 0;
+    position: inherit;
+    overflow: hidden;
+}
+
+.feed-item{
+    height: 23px;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    position: relative;
+    margin-left: 0;
+    outline: 0;
+}
+
+.explore-tab{
+    margin-top: 10px;
+}
+
+.tab-navs{
+    margin: 0 0 13px;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    height: 34px;
+}
+
+li{
+    display: list-item;
+}
+
+.tab-nav{
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 4px;
+    width: 84px;
+    height: 34px;
+
+}
+
+.anchor{
+    width: 52px;
+    height: 22px;
+    padding: 5px 15px;
+    border: 1px;
+    line-height: 1.7;
+}
+
+
+.meta-panel{
+    width: 584px;
+    height: 22px;
+    padding: 5px 0;
+    float: left;
+    overflow: hidden;
+}
+
+.meta-panel > a{
+    padding: 0 5px;
+}
+
+.feed-main-complete{
+    width: 584px;
+    /* height: 173px; */
+    float: right;
+    overflow: hidden;
+}
+
+.vote-count{
+    color: #698ebf
+}
+
+.main-context-complete{
+    /* height: 193px; */
+
+    padding: 10px 0;
+    /* position: relative;
+    margin-left: 0;
+    outline: 0; */
+}
+
+.btn-white{
+    margin: 20px 0;
+    padding: 5px 1px;
+    color: #666;
+    cursor: pointer;
+}
+
+.left-label{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.side-section-inner{
+    padding: 15px 0;
+
+}
+
+.little-title{
+    padding-bottom: 10px;
+    color: #666;
+    /*font-weight: 1000;*/
+}
+
+.section-title{
+    float: right;
+    color: #999;
+    font-size: 12px;
+}
+
+.avatar-link{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.side-nav{
+    padding: 0;
+    list-style: none;
+    color: #999;
+}
+
+.side-nav > li{
+    margin:  0 0 15px;
+}
+
+.content{
+    /* float: right; */
+    width: 225px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.ulTest{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+.ulTest li{
+    float: left;
+    margin: 5px 10px 10px 5px;
+    list-style: none;
+}
+.liTest a{
+    border-radius: 30px;
+    background: #259;
+    border-color: #259;
+    color: #fff;
+}
+.ulTest .liTest a{
+    display: block;
+    padding: 0 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid #daecf5;
+}
+.catch{
+    float:left;
+
+}
+.topicLead{
+    height: 45px;
+    width: 100%;
+    background-color: #0666C7;
+    border-bottom: 1px outset rgba(26,26,26,.1);
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+button {
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+/*图片特效样式*/
+.card img {
+    font-size: 2em;
+    font-weight: 600;
+}
+.card-container-5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    float: left;
+    overflow: hidden;
+}
+.card-container-5 .card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border-radius: 2px;
+    /*background-color: chocolate;*/
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
+.card-container-5 .card:last-of-type {
+    z-index: 80;
+}
+.card-container-5 .card:nth-last-of-type(2) {
+    z-index: 90;
+}
+.card-container-5 .card:first-of-type {
+    z-index: 100;
+}
+.card-container-5:hover .card {
+    border-bottom-left-radius: 10px;
+}放
+.card-container-5:hover .card:first-of-type {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.card-container-5:hover .card:nth-of-type(2) {
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+.card-container-5:hover .card:last-of-type {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+.contentImg img{
+    width: 100%;
+}
+.ButtonPlain{
+    height: auto;
+    padding: 0;
+    margin-left: 4px;
+    color: #175199;
+    line-height: inherit;
+    font-size: 14px;
+    text-align: center;
+    /* background-color: transparent; */
+    border: none;
+    border-radius: 0;
+    outline: none;
+    padding-right: 10px;
+    float: right;
+    overflow: hidden;
+}
+.RichContent{
+    line-height: 1.67;
+    /* display: none; */
+}

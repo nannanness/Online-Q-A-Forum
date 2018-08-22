@@ -1,0 +1,65 @@
+.slider-outer{
+    width: 270px;
+    height: 225px;
+    /* margin: 150px auto; */
+    background-color: #f60;
+    position: relative;
+}
+.img-item{
+    position: absolute;
+    width: 67.5px;
+    height: 100%;
+    background-color: #f10;
+    transition: all 1.5s;
+    /*设置子元素在3D空间中呈现*/
+    transform-style: preserve-3d;
+}
+/*让图片可以构成一个有四个面的长方体 start*/
+.img{
+    width: 270px;
+    height: 225px;
+    position: absolute;
+    background-size: cover;
+}
+.img:nth-child(1){
+    background: url(../imgs/text9.jpg) no-repeat;
+    transform: rotateX(0deg) translateZ(80px);
+}
+.img:nth-child(2){
+    background: url(../imgs/text5.jpg) no-repeat;
+    transform: rotateX(90deg) translateZ(80px);
+}
+.img:nth-child(3){
+    background: url(../imgs/text6.jpg) no-repeat;
+    transform: rotateX(180deg) translateZ(80px);
+}
+.img:nth-child(4){
+    background: url(../imgs/text7.jpg) no-repeat;
+    transform: rotateX(270deg) translateZ(80px);
+}
+/*让图片可以构成一个有四个面的长方体 end*/
+.btns{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 30px;
+    margin-top: -15px;
+}
+.prev,
+.next{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+}
+.prev{
+    left: 0;
+}
+.next{
+    right: 0;
+}

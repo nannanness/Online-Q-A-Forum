@@ -1,0 +1,47 @@
+/*2018-08-03 11:24:51*/
+/*文件【C:\Users\Public\Nwt\cache\recv\刘奕达\userInfo.jsp】接收成功。  打开  打开文件夹*/
+/*文件【C:\Users\Public\Nwt\cache\recv\刘奕达\userInfo.css】接收成功。  打开  打开文件夹*/
+/*11:28:32*/
+.noborder, img {border: 0}
+body, dd, dl, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, ol, p, select, td, textarea, th, ul {
+  margin: 0;
+  padding: 0;
+}
+a{text-decoration: none;color: #fff}
+ul li{list-style: none;}
+.pull-center{width: 1100px;margin: 0px auto}
+
+.banner{height: 120px;margin-bottom: 20px;padding-top: 14px;box-sizing: border-box;background: rgba(255,255,255,0.85)}
+.banner .touxiang{width: 100px;height: 100px;border-radius: 50%;float: left;margin-right: 20px}
+.banner .info{padding-top: 10px;font-size: 16px;float: left;}
+.banner .info p{line-height: 28px;}
+.banner .info p .niChen{color: #225599;font-size: 18px;font-weight:bold;}
+.banner .info .jieshao{font-size: 14px;color: #444444;font-weight:bold;}
+.banner .info .jiaoyu{font-size: 14px;color: #444444;font-weight:bold;}
+.banner .info .gongzuo{font-size: 14px;color: #444444;font-weight:bold;}
+.banner .caoZuo{float: right;}
+.banner .caoZuo button{margin: 8px;outline: none;border: none;line-height: 32px;padding: 0px 12px;background:#777777;border-radius: 15px;}
+
+.content .main{width: 800px;float: left;background: rgba(255,255,255,0.85)}
+.content .right{width: 280px;float: right;background: rgba(255,255,255,0.85)}
+
+.fixed{
+  position: relative;
+  top:10px;
+  right: 124px;
+}
+
+.content .main .tab{height: 56px;}
+.content .main .tab li{float: left;width: 160px;text-align: center;font-size: 16px;line-height: 56px;border-bottom: 1px solid #f0f3ef;cursor: pointer;transition: all 1000ms ease;font-weight:bold;}
+.content .main .tab li.active{background: #777777;color: #fff;font-weight:bold;}
+.content .main .tab-content{padding: 20px; font-size: 16px;line-height: 56px;border-bottom: 1px solid #f0f3ef;padding-left: 40px;}
+.content .main .tab-content .tab-item{display: none;min-height: 500px}
+.content .main .tab-content .tab-item.active{display: block}
+.content .main .tab-content .tab-item button{float: right; margin: 15px; background: #777777;outline: none;border: none;border-radius: 15px;}
+
+.content .right .tab li{float: left;width: 140px;text-align: center;font-size: 16px;line-height: 56px;border-bottom: 1px solid #f0f3ef;cursor: pointer;transition: all 1000ms ease;font-weight:bold;}
+.content .right .tab li.active{background: #777777;color: #fff;font-weight:bold;}
+.content .right .tab-content{padding: 20px; font-size: 16px;line-height: 56px;border-bottom: 1px solid #f0f3ef;padding-top: 74.8px;padding-left: 30px;}
+.content .right .tab-content .tab-item{display: none;min-height: 500px}
+.content .right .tab-content .tab-item.active{display: block}
+.content .right .tab-content .tab-item button{float: right; margin: 15px; background: #777777;outline: none;border: none;border-radius: 15px;}

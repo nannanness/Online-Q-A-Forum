@@ -1,0 +1,59 @@
+body {
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+    word-wrap: break-word;
+    color: #222;
+    background-color: #fff;
+}
+.dis-Main{
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.dis-footer, .dis-footer a {
+    color: #999;
+}
+.dis-footer {
+    clear: both;
+    text-align: right;
+}
+.dis-footer .dis-content {
+    padding: 20px 15px;
+    border-top: 1px solid #ccc;
+}
+
+.zg-wrap {
+    width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+.dis-clearfix {
+}
+.dis-footer ul, .dis-footer li {
+    display: inline;
+}
+body, ul, ol, li, p, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+.dis-footer li {
+    list-style: none;
+}
+.dis-footer .copy {
+    float: left;
+}
+.ContactPage-title{
+    margin-top: 40px;
+    font-size: 30px;
+
+}
+.ContactPage-para{
+    margin-top: 2em;
+}
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    font-size: 25px;
+    outline: 0;
+}

@@ -1,0 +1,743 @@
+
+@font-face {font-family: "resetUserInfo";
+    src: url('resetUserInfo.eot?t=1532922797598'); /* IE9*/
+    src: url('resetUserInfo.eot?t=1532922797598#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+    url('resetUserInfo.ttf?t=1532922797598') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('resetUserInfo.svg?t=1532922797598#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .resetUserInfo {
+    font-family:"resetUserInfo" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shangchuanzhaopian:before { content: "\e610"; }
+  
+  .icon-xiugai:before { content: "\e608"; }
+  
+  .icon-add:before { content: "\e604"; }
+  
+  .icon-nv:before { content: "\e616"; }
+  
+  .icon-nan:before { content: "\e784"; }
+  
+/* 上传图片设置*/
+.middle{
+    width:1000px;
+    height:260px;
+    /* 居中 */
+    margin:0 auto;
+    background-color: rgba(235, 237, 239, 0.93);
+}
+.buttonImg{
+    margin: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    padding: 0 16px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    
+}
+/* 用户信息修改 */
+.tail{
+    width:1000px;
+    margin:0 auto;
+    
+}
+/* 用户头像 */
+.userImg{
+    width:168px;
+    height:168px;
+    background-color: rgba(235, 237, 239, 0.93);
+}
+
+.uploadAvatar{
+    width: 168px;
+    height: 40px;
+    margin-top: 15px;
+    line-height: 10px;
+}
+
+.uploadDiv{
+    padding: 0 45px;
+}
+
+.imgDiv{
+    width:168px;
+    float: left;
+    margin: 10px 0 0 26px;
+    height: 213px;
+}
+/* 用户详细信息 */
+.userInfo{
+    float: right;
+    width:600px;
+    margin: 10px 0;
+}
+/* 安阳 */
+.username{
+    width:704px;
+    height:54px;
+    position: relative;
+    padding-right: 106px;
+    padding-left:20px;
+    padding-top:20px;
+    margin-bottom: 16px;
+}
+.name{
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+/* 安阳 */
+.ProfileHeader-name {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-synthesis: style;
+    line-height: 30px;
+}
+h1{
+    margin:0;
+    font:inherit;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+/* 返回我的主页 */
+.buttonTest{
+    width:106px;
+    height:25px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size:14px;
+    cursor:pointer;
+    border:0 #8590a6;
+}
+/* 详细信息 */
+.detailInfo{
+    /*width:764px;*/
+}
+/*  */
+.field{
+    width:764px;
+    height:50px;
+    border-bottom:1px solid #ebebeb;
+    display:block;
+    margin-top: 0em;
+}
+/* 性别 */
+.Header-title{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 36px;
+    color: #444;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+/* 男 */
+.Field-text{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 36px;
+    color:#444;
+}
+.sexTest{
+    height:20px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+
+.dis{
+    display: none;
+}
+/* 修改 */
+.modify{
+    position: absolute;
+    height:24px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    top:55px;
+    left:240px;
+    display: block; 
+    cursor:pointer;
+    border:0;
+}
+.field1{
+    width:764px;
+    height:50px;
+    border-bottom:1px solid #ebebeb;
+    display:block;
+    margin-top: 0em;
+}
+/* 个性签名 */
+.Header-title1{
+    height:26px;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+/* 我是一枚程序媛妹子 */
+.Field-text1{
+    position: absolute;
+    height:26px;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+}
+/* 修改 */
+.modify1{
+    position: absolute;
+    height:24px;
+    display: block;
+    cursor:pointer; 
+    border:0 ;
+   
+}
+/* 个人介绍文本输入框 */
+.autographTest{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+
+/* 居住地信息 */
+.field2{
+    width:764px;
+    height:50px;
+    border-bottom:1px solid #ebebeb;
+    display:block;
+    margin-top: 0em;
+}
+/* 所在城市 */
+.Header-title2{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+#address{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+.province{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+.country{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+
+field3{
+    width:764px;
+    height:50px;
+    border-bottom:1px solid #ebebeb;
+    display:block;
+    margin-top: 0em;
+}
+/* 职业经历 */
+.Header-title3{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+/* 添加职业经历
+
+/* 教育经历 */
+.Header-title4{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+    border:0;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+/* 添加教育经历 */
+.Field-text4{
+    height:35px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    cursor: pointer;
+    border:0;
+}
+.educationTest{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+    /* display: none; */
+    
+}
+.educationButton{
+    height:27px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+.field5{
+    width:764px;
+    height:50px;
+    border-bottom:1px solid #ebebeb;
+    display:block;
+    margin-top: 0em;
+}
+/* 个人简介 */
+.Header-title5{
+    height:26px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-synthesis: style;
+    line-height: 36px;
+    color: #444;
+}
+h3{
+    margin:0;
+    font:inherit;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+
+.introductionButton{
+    height:50px;
+    width:250px;
+    font-weight: 500;
+    font-size:14px;
+    line-height:34px;
+}
+.noborder, img {
+    border: 0
+}
+body, dd, dl, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, ol, p, select, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+a{
+    color: #000;
+    text-decoration: none;
+
+}
+
+em{
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 auto;
+}
+img{
+    vertical-align:bottom
+}
+body{
+    background-size: cover;
+    font-size: 12px;
+}
+.homePage{
+    background: #eaeaea;
+    background-size: cover;
+    font-size: 12px;
+}
+.AppHeader{
+    position: relative;
+    z-index: 100;
+    min-width: 1032px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 3px,rgba(26,26,26,.1);
+    background-clip:content-box;
+}
+.AppHeader-inner {
+    position: relative;
+    display: flex;
+    width: 1000px;
+    height: 52px;
+    padding: 0 16px;
+    margin: 0 auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+}
+AppHeader-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    margin-right: 18px;
+    margin-left: 47px;
+    color: #999;
+
+}
+.AppHeader-navItem{
+    padding: 0 5px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #8590a6;
+}
+.AppHeader-navItem1{
+    padding-left: 5px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #8590a6;
+}
+li:hover {
+    background: #111111;
+    color: #fff;
+
+}
+
+.topalways .gn_nav_list li {
+    margin-left: 26px;
+}
+.topalways .gn_nav_list li {
+    float:left;
+    display: inline;
+    position: relative;
+    margin-left: 30px;
+    font-size: 14px;
+}
+.topalways .gn_nav_list li a {
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    white-space: nowrap;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.W_ficon {
+    display: inline-block;
+}
+
+.ficon_search {
+    font-size: 18px;
+    width: 18px;
+}
+.gn_search .ficon_search {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+}
+.gn_search {
+    position: relative;
+    float: left;
+    width: 348px;
+    height: 32px;
+    margin-left: 40px;
+    background-color: #f2f2f5;
+    border: 0px solid #ccc;
+    border-radius:4px;
+}
+
+.S_ficon{
+    color: #696e78;
+}
+.shuru{
+    width: 348px;
+    height: 32px;
+    
+    -web-kit-appearance:none;
+    -moz-appearance: none;
+    border-radius:4px;
+    border:1px solid #c8cccf;
+    size:  16px;
+    color: #808080;
+    font-size: 17px;
+    font-family: "微软雅黑";
+}
+.sousuo{
+    width: 18px;
+    height: 23px;
+    position:absolute;
+    left:200px;
+    top:20px;
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+.xiaoxi{
+    margin: auto;
+    text-align: center;
+
+}
+.AppHeader-userInfo {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+   
+}
+.Popover {
+    position: relative;
+    display: inline-block;
+    
+}
+.AppHeader-messages, .AppHeader-notifications {
+    margin-right: 40px;
+    
+}
+
+.gn_logo {
+   
+ 
+}
+
+.ProfileEdit {
+    width: 1000px;
+    padding: 0 16px;
+    margin: 14px auto;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+.Card:last-child {
+    margin-bottom: 0;
+}
+
+
+
+div {
+    display: block;
+}
+.ProfileHeader-main {
+    position: relative;
+    margin: 0 20px 24px;
+}
+.logoin{
+    width:300px;
+    height:320px;
+    background: rgba(255,255,255,.4);
+    margin:0px auto;
+    text-align: center;
+    padding: 56px 0 0 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    position: relative;
+}
+.logoin h1{
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.paswbox,.userbox{
+    width: 230px;
+    height: 36px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+.paswbox span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("../imgs/icons.png") no-repeat;
+    background-position: 0 0;
+    /* position: absolute;
+    right: 12px;
+    top:12px; */
+    float: right;
+    cursor: pointer;
+}
+.user,.password{
+    width:230px;
+    height:36px;
+    padding-left: 10px;
+    font-size: 12px;
+    background: #f6f6f6;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    outline: none;
+    box-sizing: border-box;
+}
+.logoin .next{
+    display: block;
+    line-height: 36px;
+    height: 36px;
+    width: 230px;
+    margin: 0 auto 20px auto;
+    background: #4063a5;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.logoin .next:active{
+    background: #4874c8;
+}
+.welcome{
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    margin: 144px auto 18px auto;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgba(255,255,255,.1);
+}
+.welcome a{
+    color: #2e4372;
+}
+.welcome span{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url("../imgs/icons2.png") no-repeat;
+    background-position: 0 -12px;
+    position: absolute;
+    top:14px;
+    right: 50px;
+}
+#box1{
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid #2e4372;
+    position: absolute;
+    top:0px;
+    left: 0px;
+}
+.welcome:hover a{
+    color:#fff;
+}
+.welcome:hover span{
+    background-position: 0 0;
+}
+.zuce{
+    width: 300px;
+    line-height: 36px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    border-top: 2px solid #ececec;
+    font-weight: bold;
+}
+.forget:hover,.zuce a:hover{
+    color: #2e4372;
+}
+.bqxxbox{
+    height: 56px;
+    width: 100%;
+    border-top: 2px solid rgba(255,255,255,.3);
+    position: absolute;
+    bottom: 0px;
+}
+.bqxx{
+    width: 900px;
+    margin-left:5%;
+}
+.btn{
+    font-family:"黑体";
+    font-size:15px;
+    /*font-style:*/
+    
+}
+.submit{
+    font-family: "黑体";
+    font-size:15px;
+    /*font-style: 600;*/
+}
+

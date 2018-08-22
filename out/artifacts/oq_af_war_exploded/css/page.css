@@ -1,0 +1,23 @@
+.take-page{
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    width: 60px;
+    height: 80px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -40px;
+    background-color: #fff;
+    color: #0D77E6;
+}
+
+
+.pagination{
+
+}
+
+.pagination:hover{
+    background-color: #0D77E6;
+    color: #fff;
+}

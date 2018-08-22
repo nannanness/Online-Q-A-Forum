@@ -1,0 +1,60 @@
+.card img {
+    font-size: 2em;
+    font-weight: 600;
+    max-width: 100%;
+  }
+  .card-container-6 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
+    float: left;
+    overflow: hidden;
+  }
+  .card-container-6 .card {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .card-container-6 .card:last-of-type {
+    z-index: 80;
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+  .card-container-6 .card:nth-last-of-type(2) {
+    z-index: 90;
+    -webkit-transform: scale(0.45);
+            transform: scale(0.45);
+    -webkit-transform-origin: bottom center;
+            transform-origin: bottom center;
+  }
+  .card-container-6 .card:first-of-type {
+    z-index: 100;
+    -webkit-transform-origin: top center;
+            transform-origin: top center;
+  }
+  .card-container-6:hover .card:first-of-type {
+    -webkit-transform: scale(0.8) translateY(-21px);
+            transform: scale(0.8) translateY(-21px);
+  }
+  .card-container-6:hover .card:nth-of-type(2) {
+    cursor: hand;
+    cursor: pointer;
+    -webkit-transform: scale(0.38) translate(-55%, 35%);
+            transform: scale(0.38) translate(-55%, 35%);
+  }
+  .card-container-6:hover .card:last-of-type {
+    cursor: hand;
+    cursor: pointer;
+    -webkit-transform: scale(0.38) translate(55%, 35%);
+            transform: scale(0.38) translate(55%, 35%);
+  }

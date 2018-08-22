@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="oq&amp;af:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="f61cc0a3-9fe1-4204-b151-e6dad70a079e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/.idea/artifacts/oqaf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/final/.idea/artifacts/oqaf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/final/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/oq&amp;af.iml" beforeDir="false" afterPath="$PROJECT_DIR$/final/oq&amp;af.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IIndexCountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IIndexCountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IRemarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IRemarkDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/CareUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/CareUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Collection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem_Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem_Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remark.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remarks.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remarks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserInfoCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserInfoCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IIndexCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IIndexCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IRemarkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IRemarkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/indexPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/indexPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/jigsaw.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/jigsaw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/shouye.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/shouye.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/topic.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/topic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/userInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/css/userInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/disorderly.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/disorderly.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/editor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/editor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/index1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/index1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/js/jigsaw.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/js/jigsaw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/lookUserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/lookUserInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/10replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/10replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/3replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/3replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/4replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/4replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/6replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/7replay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/8replay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/replay/9replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/topic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/topic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/artifacts/oq_af_war_exploded/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/ArticleServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/ArticleServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/UserDynamicsServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/UserDynamicsServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/UserInfoBGPServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/UserInfoBGPServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IIndexCountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IIndexCountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IRemarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IRemarkDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/CareUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/CareUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Collection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem_Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem_Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remark.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remarks.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remarks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserInfoCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserInfoCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/IIndexCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/IIndexCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/IRemarkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/IRemarkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/final/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/ArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/ArticleServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/ReplayServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/ReplayServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/UserDynamicsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/UserDynamicsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/UserInfoBGPServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/controller/servlet/UserInfoBGPServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/src/org/lanqiao/oqaf/test" beforeDir="true" />
+      <change beforePath="$PROJECT_DIR$/final/web/css/jigsaw.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/css/jigsaw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/disorderly.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/disorderly.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/editor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/editor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/find.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/find.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/index1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/index1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/js/jigsaw.js" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/js/jigsaw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/lookUserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/lookUserInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/replay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/replay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/resetUserInf.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/resetUserInf.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/topic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/topic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final/web/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/final/web/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IIndexCountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IIndexCountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IRemarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/IRemarkDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/CareUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/CareUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Collection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem_Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Problem_Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remarks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Remarks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserInfoCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserInfoCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/domain/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IIndexCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IIndexCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IRemarkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/IRemarkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/WEB-INF/classes/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/editor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/indexPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/indexPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/jigsaw.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/jigsaw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/shouye.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/shouye.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/topic.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/topic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/userInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/css/userInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/disorderly.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/disorderly.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/editor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/editor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/find.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/find.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/index1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/index1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/js/jigsaw.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/js/jigsaw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/lookUserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/lookUserInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/10replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/10replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/3replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/3replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/4replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/4replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/6replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/7replay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/8replay5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/replay/9replay4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/topic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/topic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/oq_af_war_exploded/userInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/IndexServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/RemarkServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/controller/servlet/TopicServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IIndexCountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IIndexCountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IRemarkDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/IRemarkDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/IndexCountImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/CareUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/CareUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Collection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Collection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem_Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Problem_Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remarks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Remarks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Replay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/Replay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserArticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserArticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserInfoCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserInfoCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/domain/UserResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/IIndexCountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/IIndexCountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/IRemarkService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/IRemarkService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/oq&amp;af/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/jigsaw.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jigsaw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/disorderly.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/disorderly.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/editor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/editor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/find.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/find.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jigsaw.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/jigsaw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lookUserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/lookUserInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/replay.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/replay.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/topic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/topic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/userInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/userInfo.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="topic.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/topic.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="47" selection-end-line="522" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopicServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="83" column="5" selection-end-line="167" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>index</find>
+      <find>btn-guanbi</find>
+      <find>pinglunAfter</find>
+      <find>pinglunneirong</find>
+      <find>pingluna</find>
+      <find>ping</find>
+      <find>daily</find>
+      <find>under</find>
+      <find>pinglun</find>
+      <find>userId</find>
+      <find>yonghuming</find>
+      <find>navigation-bar-child-searchIco</find>
+      <find>icon-sousuo</find>
+      <find>list =</find>
+      <find>topicLead</find>
+      <find>codeClass</find>
+      <find>card</find>
+      <find>reademore</find>
+      <find>hindearticle</find>
+      <find>imgs/text7.jpg</find>
+      <find>提交</find>
+      <find>a</find>
+      <find>esc</find>
+      <find>replay1</find>
+      <find>replayProblem</find>
+      <find>Title</find>
+      <find>replay</find>
+      <find>btn-sm</find>
+      <find>btn</find>
+      <find>50</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/ICareUserService.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/CareUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ProblemServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/test/TestTxt.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/filter/EncodeFilter.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/UserDynamicsServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IRemarkGetDao.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarksServlet.java" />
+        <option value="$PROJECT_DIR$/web/resetUserInf.jsp" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/UserInfoBGPServlet.java" />
+        <option value="$PROJECT_DIR$/web/css/imaglook.css" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/ICollectionDao.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/ICollectionService.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/CollectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/domain/Replay.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/CollectionDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/css/indexPanel.css" />
+        <option value="$PROJECT_DIR$/web/css/remark.css" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/CollectionServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/IndexCountImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IIndexCountDao.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/IIndexCountService.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/css/find.css" />
+        <option value="$PROJECT_DIR$/web/css/topic.css" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/DisorderlyServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java" />
+        <option value="$PROJECT_DIR$/web/css/login.css" />
+        <option value="$PROJECT_DIR$/web/css/shouye.css" />
+        <option value="$PROJECT_DIR$/web/css/jigsaw.css" />
+        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ReplayServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IRemarkDao.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/IRemarkService.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/test/Test.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java" />
+        <option value="$PROJECT_DIR$/web/disorderly.jsp" />
+        <option value="$PROJECT_DIR$/web/editor.jsp" />
+        <option value="$PROJECT_DIR$/web/find.jsp" />
+        <option value="$PROJECT_DIR$/web/index1.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/web/lookUserInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/replay.jsp" />
+        <option value="$PROJECT_DIR$/web/topic.jsp" />
+        <option value="$PROJECT_DIR$/web/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.java" />
+        <option value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ArticleServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-102" />
+    <option name="y" value="145" />
+    <option name="width" value="1223" />
+    <option name="height" value="425" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="oq&amp;af" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="oq&amp;af" type="462c0819:PsiDirectoryNode" />
+              <item name="oqaf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="oq&amp;af" type="462c0819:PsiDirectoryNode" />
+              <item name="oqaf" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="oq&amp;af" type="462c0819:PsiDirectoryNode" />
+              <item name="oqaf" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="146" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="147" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="146" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/71535/Desktop/newoqaf/src/org/lanqiao/oqaf/controller/servlet/LoginServlet.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarksServlet.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qq\qq消息\756683214\FileRecv\final\web\js" />
+      <recent name="E:\qq\qq消息\756683214\FileRecv\final\web\css" />
+      <recent name="E:\qq\qq消息\756683214\FileRecv\final\web" />
+      <recent name="C:\Users\Public\Nwt\cache\recv\张志鹏\newoqaf\src\org\lanqiao\oqaf\controller\servlet" />
+      <recent name="C:\Users\Public\Nwt\cache\recv\张志鹏\newoqaf\src\org\lanqiao\oqaf\service\impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\71535\Desktop\newoqaf\web\imgs\userImg" />
+      <recent name="C:\Users\71535\Desktop\newoqaf\web\css" />
+      <recent name="C:\Users\71535\Desktop\newoqaf\src\org\lanqiao\oqaf\controller\servlet" />
+      <recent name="C:\Users\71535\Desktop\newoqaf\src\org\lanqiao\oqaf\service\impl" />
+      <recent name="C:\Users\71535\Desktop\newoqaf\src\org\lanqiao\oqaf\service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat 9.0">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.oqaf.test.Test" />
+      <module name="oq&amp;af" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.oqaf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.oqaf.test.TestTxt" />
+      <module name="oq&amp;af" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.oqaf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="GetIndexCount.findIdol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oq&amp;af" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.oqaf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.lanqiao.oqaf.test" />
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.oqaf.test.GetIndexCount" />
+      <option name="METHOD_NAME" value="findIdol" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GetIndexCount.getIndexCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oq&amp;af" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.oqaf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.lanqiao.oqaf.test" />
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.oqaf.test.GetIndexCount" />
+      <option name="METHOD_NAME" value="getIndexCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="GetIndexCount.getTypeCountList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oq&amp;af" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lanqiao.oqaf.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.lanqiao.oqaf.test" />
+      <option name="MAIN_CLASS_NAME" value="org.lanqiao.oqaf.test.GetIndexCount" />
+      <option name="METHOD_NAME" value="getTypeCountList" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="oq&amp;af:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_oqaf_4" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52598" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="oq&amp;af:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat 9.0" />
+      <item itemvalue="Application.TestTxt" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.GetIndexCount.getIndexCount" />
+      <item itemvalue="JUnit.GetIndexCount.getTypeCountList" />
+      <item itemvalue="JUnit.GetIndexCount.findIdol" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestTxt" />
+        <item itemvalue="JUnit.GetIndexCount.findIdol" />
+        <item itemvalue="JUnit.GetIndexCount.getTypeCountList" />
+        <item itemvalue="JUnit.GetIndexCount.getIndexCount" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\dell00\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\dell00\Desktop\项目\final" />
+          <option name="myCopyRoot" value="C:\Users\dell00\Desktop\项目\final" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\dell00\Desktop\项目\final\.idea" />
+          <option name="myCopyRoot" value="C:\Users\dell00\Desktop\项目\final\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\dell00\Desktop\项目\final" />
+          <option name="myCopyRoot" value="C:\Users\dell00\Desktop\项目\final\final" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\dell00\Desktop\项目\final" />
+          <option name="myCopyRoot" value="C:\Users\dell00\Desktop\项目\final" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\dell00\Desktop\项目\final" />
+          <option name="myCopyRoot" value="C:\Users\dell00\Desktop\项目\final\final" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f61cc0a3-9fe1-4204-b151-e6dad70a079e" name="Default" comment="c3p0的文件修改" />
+      <created>1532683926297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532683926297</updated>
+      <workItem from="1532683930431" duration="628000" />
+      <workItem from="1532684840197" duration="2356000" />
+      <workItem from="1532689929152" duration="4983000" />
+      <workItem from="1532696125990" duration="659000" />
+      <workItem from="1532740280759" duration="3751000" />
+      <workItem from="1532768472802" duration="10066000" />
+      <workItem from="1532914427199" duration="10389000" />
+      <workItem from="1532999235892" duration="7217000" />
+      <workItem from="1533020388806" duration="4515000" />
+      <workItem from="1533026222863" duration="14371000" />
+      <workItem from="1533089791895" duration="22719000" />
+      <workItem from="1533123212605" duration="5126000" />
+      <workItem from="1533174989383" duration="2612000" />
+      <workItem from="1533179415810" duration="3432000" />
+      <workItem from="1533189730567" duration="21409000" />
+      <workItem from="1533218970924" duration="6130000" />
+      <workItem from="1533226734506" duration="1807000" />
+      <workItem from="1533258820279" duration="9258000" />
+      <workItem from="1533268996864" duration="5462000" />
+      <workItem from="1533277726490" duration="1307000" />
+      <workItem from="1533348308479" duration="15340000" />
+      <workItem from="1533368244692" duration="1290000" />
+      <workItem from="1533369628618" duration="8517000" />
+      <workItem from="1533392618103" duration="5366000" />
+      <workItem from="1533427828369" duration="10611000" />
+      <workItem from="1533451541746" duration="13599000" />
+      <workItem from="1533556462310" duration="1394000" />
+      <workItem from="1533558146711" duration="1945000" />
+      <workItem from="1533613135468" duration="594000" />
+      <workItem from="1533657863400" duration="901000" />
+      <workItem from="1533720860867" duration="68000" />
+      <workItem from="1533725834557" duration="691000" />
+      <workItem from="1533727404130" duration="3301000" />
+      <workItem from="1533731217718" duration="2406000" />
+      <workItem from="1533734561746" duration="1516000" />
+      <workItem from="1533739141647" duration="973000" />
+      <workItem from="1533745230232" duration="5469000" />
+      <workItem from="1533812655621" duration="9484000" />
+      <workItem from="1533824208291" duration="845000" />
+      <workItem from="1533832190361" duration="3437000" />
+      <workItem from="1533863483586" duration="22160000" />
+      <workItem from="1533949989015" duration="2274000" />
+      <workItem from="1533952661565" duration="28845000" />
+      <workItem from="1534039435480" duration="1969000" />
+      <workItem from="1534042559014" duration="955000" />
+      <workItem from="1534082144778" duration="645000" />
+      <workItem from="1534083316672" duration="591000" />
+      <workItem from="1534121578762" duration="2440000" />
+      <workItem from="1534151231176" duration="2616000" />
+      <workItem from="1534168391496" duration="5000" />
+      <workItem from="1534168438778" duration="3453000" />
+      <workItem from="1534209564054" duration="1760000" />
+      <workItem from="1534226567652" duration="436000" />
+      <workItem from="1534231758869" duration="643000" />
+      <workItem from="1534237178758" duration="1851000" />
+      <workItem from="1534239718921" duration="142000" />
+    </task>
+    <task id="LOCAL-00001" summary="login的script位置放在前面">
+      <created>1532696338828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532696338828</updated>
+    </task>
+    <task id="LOCAL-00002" summary="login的script位置放在前面">
+      <created>1532740781678</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1532740781678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="登陆页面的更新">
+      <created>1532743335527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532743335527</updated>
+    </task>
+    <task id="LOCAL-00004" summary="页面的完善">
+      <created>1533182447022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1533182447022</updated>
+    </task>
+    <task id="LOCAL-00005" summary="c3p0的文件修改">
+      <created>1533182497139</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1533182497139</updated>
+    </task>
+    <task id="LOCAL-00006" summary="c3p0的文件修改">
+      <created>1533195910488</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533195910489</updated>
+    </task>
+    <task id="LOCAL-00007" summary="date数据的转变">
+      <created>1533210732429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1533210732429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="话题的修改">
+      <created>1533369099570</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1533369099570</updated>
+    </task>
+    <task id="LOCAL-00009" summary="c3p0的xml文件的修改">
+      <created>1533953681310</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533953681310</updated>
+    </task>
+    <task id="LOCAL-00010" summary="首页的修改">
+      <created>1533967552799</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1533967552799</updated>
+    </task>
+    <task id="LOCAL-00011" summary="回答页面的修改">
+      <created>1533983127333</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1533983127333</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1533983565659</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1533983565659</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.03 at 00h 29m 27s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.03 at 00h 30m 27s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.03 at 14h 56m 22s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.03 at 15h 00m 16s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JDBCTest_getJDBc - 2018.08.04 at 10h 06m 30s.xml">
+      <configuration name="JDBCTest.getJDBc" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.04 at 11h 24m 57s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.04 at 11h 28m 38s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getIndexCount - 2018.08.04 at 11h 29m 20s.xml">
+      <configuration name="GetIndexCount.getIndexCount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_getTypeCountList - 2018.08.04 at 14h 15m 17s.xml">
+      <configuration name="GetIndexCount.getTypeCountList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GetIndexCount_findIdol - 2018.08.04 at 17h 17m 59s.xml">
+      <configuration name="GetIndexCount.findIdol" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193216000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.2990196" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32954547" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49924356" weight="0.1737013" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.34902596" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35551947" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" weight="0.32792208" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49143836" weight="0.24054463" />
+      <window_info id="Web" order="6" sideWeight="0.5085617" side_tool="true" weight="0.21406959" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32954547" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49848714" weight="0.32792208" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.2990196" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.34902596" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.35551947" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49143836" visible="true" weight="0.24054463" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="6" sideWeight="0.5085617" side_tool="true" weight="0.21406959" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49924356" weight="0.1737013" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login的script位置放在前面" />
+    <MESSAGE value="登陆页面的更新" />
+    <MESSAGE value="登陆页面的完善" />
+    <MESSAGE value="页面的完善" />
+    <MESSAGE value="c3p0的文件修改" />
+    <MESSAGE value="date数据的转变" />
+    <MESSAGE value="话题的修改" />
+    <MESSAGE value="c3p0的xml文件的修改" />
+    <MESSAGE value="首页的修改" />
+    <MESSAGE value="回答页面的修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/CareUserDaoImpl.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ProblemServlet.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarksServlet.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/CollectionServlet.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java</url>
+          <line>53</line>
+          <properties class="org.lanqiao.oqaf.controller.servlet.IndexServlet" method="replayIndex">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="107" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/domain/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarksServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/indexPanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/remark.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/CollectionServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IProblemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/service/IIndexCountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/IndexCountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/find.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/topic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="395" column="1" lean-forward="true" selection-start-line="395" selection-start-column="1" selection-end-line="395" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/DisorderlyServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/filter/EncodeFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/shouye.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="870" column="16" lean-forward="true" selection-end-line="883" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="69" column="40" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/domain/Problem_Replay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="66" lean-forward="true" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/service/IRemarkService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/service/impl/RemarkServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/test/JDBCTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/test/GetIndexCount.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/test/CheckTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/test/Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IRemarkDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/ReplayDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="130" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/userInfo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ReplayServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/IndexServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="136" column="52" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/jigsaw.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/ProblemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/IndexCountImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="26" column="137" selection-start-line="26" selection-start-column="137" selection-end-line="26" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/IndexCountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/IIndexCountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/RemarkGetDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/dao/impl/RemarkDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/RemarkServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/editor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/find.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3750">
+          <caret line="150" column="64" selection-start-line="150" selection-start-column="64" selection-end-line="150" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11350">
+          <caret line="454" column="71" selection-start-line="454" selection-start-column="71" selection-end-line="454" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/lookUserInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="221" column="90" selection-start-line="221" selection-start-column="90" selection-end-line="221" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/replay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resetUserInf.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3458">
+          <caret line="182" column="37" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/AvatarUpLoadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/disorderly.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1236">
+          <caret line="92" column="63" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="260" column="124" selection-start-line="260" selection-start-column="124" selection-end-line="260" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/ArticleServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="195" column="47" lean-forward="true" selection-start-line="195" selection-start-column="22" selection-end-line="195" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/topic.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="47" selection-end-line="522" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/lanqiao/oqaf/controller/servlet/TopicServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="83" column="5" selection-end-line="167" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>oqaf</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oq&amp;af</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>fastjson-1.2.47</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
